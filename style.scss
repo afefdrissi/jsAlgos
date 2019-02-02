@@ -1,0 +1,48 @@
+body{
+    font-family: Roboto;
+    background: #d6d6d6;
+    #byme{
+        position: fixed;right: 40px;bottom: 40px;font-size: 14pt;
+    }
+    .algo{
+        display: flex;
+        flex-direction: column;
+        min-height:394px ;
+        justify-content:space-between;
+      
+        padding: 50px 60px;
+        h1{
+            color: #b311c5;font-size: 52pt;
+
+        }
+        p{
+            max-width: 50vw;
+           
+        }
+        textarea,input{
+            height: 52px;width: 50vw;
+            border-radius: 4px;border: 1pt solid #c1c1c1;
+            background: #fff;
+        }
+        .Btn{
+            background: #16c7b7; 
+           // width:120px;
+            margin-top: 16px;align-self: start;
+            border-radius: 4px;border: 1pt solid #11c5b3;cursor: pointer;
+            padding:8px 12px;color: white;font-weight: bold;font-size: 14pt;
+            &:active{
+                opacity: 0.6;
+            }
+        }
+        .res{
+            font-size: 14pt;
+            height: 80px;margin-top:16px;
+            strong{
+            font-size: 18pt;
+
+            }
+        }
+    }
+
+    
+}
